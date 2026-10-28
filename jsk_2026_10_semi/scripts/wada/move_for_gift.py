@@ -55,18 +55,27 @@ JOINT_NAMES = [
 ]
 
 alltarget=[]
+
 #手を広げる
 alltarget.append({"waist_yaw_joint" :0.00,"waist_roll_joint" :0.00,"waist_pitch_joint" :0.00,"left_shoulder_pitch_joint" :-0.35,"left_shoulder_roll_joint" :0.58,"left_shoulder_yaw_joint" :0.46,"left_elbow_joint" :1.03,"left_wrist_roll_joint" :-0.37,"left_wrist_pitch_joint" :-0.41,"left_wrist_yaw_joint" :-0.72,"right_shoulder_pitch_joint" :-0.32,"right_shoulder_roll_joint" :-0.56,"right_shoulder_yaw_joint" :-0.46,"right_elbow_joint" :0.95,"right_wrist_roll_joint" :0.37,"right_wrist_pitch_joint" :-0.37,"right_wrist_yaw_joint" :0.69})
 #手を広げるpart2
-alltarget.append({"waist_yaw_joint" :-0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :0.00,"left_shoulder_pitch_joint" :-0.31,"left_shoulder_roll_joint" :0.93,"left_shoulder_yaw_joint" :0.29,"left_elbow_joint" :0.69,"left_wrist_roll_joint" :-1.75,"left_wrist_pitch_joint" :0.68,"left_wrist_yaw_joint" :0.03,"right_shoulder_pitch_joint" :-0.32,"right_shoulder_roll_joint" :-0.56,"right_shoulder_yaw_joint" :-0.46,"right_elbow_joint" :0.95,"right_wrist_roll_joint" :0.37,"right_wrist_pitch_joint" :-0.37,"right_wrist_yaw_joint" :0.69})
+#alltarget.append({"waist_yaw_joint" :-0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :0.00,"left_shoulder_pitch_joint" :-0.31,"left_shoulder_roll_joint" :0.93,"left_shoulder_yaw_joint" :0.29,"left_elbow_joint" :0.69,"left_wrist_roll_joint" :-1.75,"left_wrist_pitch_joint" :0.68,"left_wrist_yaw_joint" :0.03,"right_shoulder_pitch_joint" :-0.32,"right_shoulder_roll_joint" :-0.56,"right_shoulder_yaw_joint" :-0.46,"right_elbow_joint" :0.95,"right_wrist_roll_joint" :0.37,"right_wrist_pitch_joint" :-0.37,"right_wrist_yaw_joint" :0.69})
 #手を差し込む体制へ
-alltarget.append({"waist_yaw_joint" :0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :-0.00,"left_shoulder_pitch_joint" :-1.20,"left_shoulder_roll_joint" :1.16,"left_shoulder_yaw_joint" :-1.43,"left_elbow_joint" :0.81,"left_wrist_roll_joint" :-1.40,"left_wrist_pitch_joint" :1.33,"left_wrist_yaw_joint" :-1.47,"right_shoulder_pitch_joint" :-0.32,"right_shoulder_roll_joint" :-0.56,"right_shoulder_yaw_joint" :-0.46,"right_elbow_joint" :0.95,"right_wrist_roll_joint" :0.37,"right_wrist_pitch_joint" :-0.37,"right_wrist_yaw_joint" :0.69})
+#より平行に近い形にした
+
+alltarget.append({"waist_yaw_joint" :0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :0.00,"left_shoulder_pitch_joint" :0.92,"left_shoulder_roll_joint" :-0.06,"left_shoulder_yaw_joint" :0.89,"left_elbow_joint" :0.10,"left_wrist_roll_joint" :-1.07,"left_wrist_pitch_joint" :1.08,"left_wrist_yaw_joint" :-0.97,"right_shoulder_pitch_joint" :0.20,"right_shoulder_roll_joint" :-0.36,"right_shoulder_yaw_joint" :-0.42,"right_elbow_joint" :0.12,"right_wrist_roll_joint" :0.42,"right_wrist_pitch_joint" :-0.14,"right_wrist_yaw_joint" :0.49})
+
 #手を差し込む
-alltarget.append({"waist_yaw_joint" :0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :-0.00,"left_shoulder_pitch_joint" :-0.75,"left_shoulder_roll_joint" :0.48,"left_shoulder_yaw_joint" :-0.63,"left_elbow_joint" :0.75,"left_wrist_roll_joint" :-1.88,"left_wrist_pitch_joint" :1.16,"left_wrist_yaw_joint" :-0.08,"right_shoulder_pitch_joint" :-0.32,"right_shoulder_roll_joint" :-0.56,"right_shoulder_yaw_joint" :-0.46,"right_elbow_joint" :0.95,"right_wrist_roll_joint" :0.37,"right_wrist_pitch_joint" :-0.37,"right_wrist_yaw_joint" :0.69})
+
+alltarget.append({"waist_yaw_joint" :0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :0.00,"left_shoulder_pitch_joint" :-0.48,"left_shoulder_roll_joint" :0.15,"left_shoulder_yaw_joint" :0.78,"left_elbow_joint" :0.75,"left_wrist_roll_joint" :-1.22,"left_wrist_pitch_joint" :0.56,"left_wrist_yaw_joint" :0.07,"right_shoulder_pitch_joint" :0.91,"right_shoulder_roll_joint" :-0.14,"right_shoulder_yaw_joint" :-0.62,"right_elbow_joint" :0.03,"right_wrist_roll_joint" :0.77,"right_wrist_pitch_joint" :-0.55,"right_wrist_yaw_joint" :1.06})
+
 #手を閉じて
 
 #上にあげて袋を傾ける
-alltarget.append({"waist_yaw_joint" :0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :-0.00,"left_shoulder_pitch_joint" :-0.95,"left_shoulder_roll_joint" :1.08,"left_shoulder_yaw_joint" :-0.79,"left_elbow_joint" :0.72,"left_wrist_roll_joint" :-1.50,"left_wrist_pitch_joint" :1.56,"left_wrist_yaw_joint" :-0.59,"right_shoulder_pitch_joint" :-0.32,"right_shoulder_roll_joint" :-0.56,"right_shoulder_yaw_joint" :-0.46,"right_elbow_joint" :0.95,"right_wrist_roll_joint" :0.37,"right_wrist_pitch_joint" :-0.37,"right_wrist_yaw_joint" :0.69})
+
+alltarget.append({"waist_yaw_joint" :0.00,"waist_roll_joint" :0.00,"waist_pitch_joint" :0.00,"left_shoulder_pitch_joint" :-0.45,"left_shoulder_roll_joint" :0.57,"left_shoulder_yaw_joint" :-0.38,"left_elbow_joint" :0.71,"left_wrist_roll_joint" :-0.93,"left_wrist_pitch_joint" :1.20,"left_wrist_yaw_joint" :-0.80,"right_shoulder_pitch_joint" :0.20,"right_shoulder_roll_joint" :-0.36,"right_shoulder_yaw_joint" :-0.42,"right_elbow_joint" :0.12,"right_wrist_roll_joint" :0.42,"right_wrist_pitch_joint" :-0.14,"right_wrist_yaw_joint" :0.49})
+
+
 #右手をいい感じに持っていく
 alltarget.append({"waist_yaw_joint" :-0.00,"waist_roll_joint" :-0.00,"waist_pitch_joint" :-0.00,"left_shoulder_pitch_joint" :-0.95,"left_shoulder_roll_joint" :1.08,"left_shoulder_yaw_joint" :-0.79,"left_elbow_joint" :0.72,"left_wrist_roll_joint" :-1.50,"left_wrist_pitch_joint" :1.56,"left_wrist_yaw_joint" :-0.59,"right_shoulder_pitch_joint" :-0.30,"right_shoulder_roll_joint" :-0.39,"right_shoulder_yaw_joint" :0.00,"right_elbow_joint" :-0.54,"right_wrist_roll_joint" :0.55,"right_wrist_pitch_joint" :0.77,"right_wrist_yaw_joint" :0.56})
 #初期状態    
@@ -224,6 +233,9 @@ class Upper_Body_Move(Node):
     def __init__(self) -> None:
         super().__init__('upper_body_move')
         #self = Node("upper_body_move")
+        #gear_sonic_controller
+        #upper_body_controller
+        #self.controller = self.declare_parameter("controller", "upper_body_controller").value
         self.controller = self.declare_parameter("controller", "gear_sonic_controller").value
         self.client = ActionClient(self, FollowJointTrajectory, f"/{self.controller}/follow_joint_trajectory")
 
@@ -249,8 +261,8 @@ class Upper_Body_Move(Node):
         goal = FollowJointTrajectory.Goal()
         goal.trajectory.joint_names = JOINT_NAMES
         goal.trajectory.points = [
-            self.make_point(current,{},0.5),
-            self.make_point(current,target,5)
+            self.make_point(current,{},0.1),
+            self.make_point(current,target,1.5)
             ]
         
         self.get_logger().info("Sending goal")
@@ -286,30 +298,35 @@ def main(args=None):
     hand_node.hand_callback("right", "close")
     rclpy.spin_once(hand_node)
 
-    time.sleep(5)
+    #upper_body_node.upper_body_callback(alltarget[4])
+    #rclpy.spin_once(upper_body_node)
 
+    time.sleep(1)
     #main処理は以下
-    for i in range(4):
+    for i in range(3):
         upper_body_node.upper_body_callback(alltarget[i])
         rclpy.spin_once(upper_body_node)
 
     hand_node.hand_callback("left", "close")
     rclpy.spin_once(hand_node)
     
-    time.sleep(5)
+    time.sleep(1)
 
     for i in range(2):
-        upper_body_node.upper_body_callback(alltarget[i+4])
+        upper_body_node.upper_body_callback(alltarget[i+3])
         rclpy.spin_once(upper_body_node)
 
     hand_node.hand_callback("left", "open")
     rclpy.spin_once(hand_node)
     
-    time.sleep(5)
+    time.sleep(1)
     
-    upper_body_node.upper_body_callback(alltarget[6])
+    upper_body_node.upper_body_callback(alltarget[5])
     rclpy.spin_once(upper_body_node)
-    
+
+    hand_node.hand_callback("left", "close")
+    rclpy.spin_once(hand_node)
+    time.sleep(1)
     upper_body_node.destroy_node()
     hand_node.destroy_node()
     rclpy.shutdown()
